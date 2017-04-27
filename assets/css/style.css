@@ -4,6 +4,7 @@ body {
 	background-size: cover;
 }
 
+
 #game {
 	font-family: 'Josefin Slab', serif;
 	font-weight: 600;
@@ -33,19 +34,27 @@ body {
 
 h1 {
 	font-family: 'Fredericka the Great', cursive;
-	font-weight: 900;
+	font-weight: 400;
 	color: red;
 	text-align: center;
     font-size: 90px;
     margin-top: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 h2 {
 	font-family: 'Josefin Slab', serif;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 30px;
+	font-style: italic;
+	color: blue;
 	text-align: center;
+}
+
+h3 {
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
 	color: #fff;
-	
+	text-align: center;
+	text-transform: uppercase;
 }
