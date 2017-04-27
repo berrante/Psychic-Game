@@ -1,0 +1,51 @@
+/*BASIC FORMATTING*/
+body {
+	background-image: url(../images/psychic-background.png);
+	background-size: cover;
+}
+
+#game {
+	font-family: 'Josefin Slab', serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.main-container {
+	box-sizing: border-box;
+  	width: 45%;
+    height: 100%;
+    border: 6px double #B97E2E;
+   	background: rgba(100, 100, 100, .9);
+   	margin: auto;
+
+}
+
+
+/*HEADING*/
+.header {
+	box-sizing: border-box;
+	margin: auto;
+	width: 33.33%;
+}
+
+h1 {
+	font-family: 'Fredericka the Great', cursive;
+	font-weight: 900;
+	color: red;
+	text-align: center;
+    font-size: 90px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+h2 {
+	font-family: 'Josefin Slab', serif;
+	font-weight: 500;
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	
+}
