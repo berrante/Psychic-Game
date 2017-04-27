@@ -1,4 +1,4 @@
-// variables
+// VARIABLES
 // track wins
 var wins = 0;
 // track losses
@@ -13,7 +13,7 @@ var alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p',
 // begin new game
 getLetter ();
 	
-// choose random letter from computerChoice array
+// choose random letter from alphabet array
 function getLetter () {
 	
 	randomLetter = alphabet[Math.floor(Math.random() * alphabet.length)];
@@ -28,11 +28,11 @@ document.onkeyup = function(event) {
 // 	store the user guess
 	var userGuess = event.key;
 
-// making a var to track a positive match
+// making a var to track valid guesses. no duplicate letters or special characters.
 	var match = false;
 	var duplicate = false;
 
-// loop through alphabet to verify a valid guess (no special characters)
+// loop through alphabet to verify no special characters
 	for (var i=0; i < alphabet.length; i++) {
 		
 		if (userGuess === alphabet[i]) {
