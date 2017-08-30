@@ -8,9 +8,9 @@ Users press any key to begin. They are then prompted to guess which letter has b
 
 ## Code Overview
 1. When game is started by the user, a function runs to select a random letter from our letters array.
-1. Each keystroke is logged and then compared against our selected letter. 
-  1. Our Guesses var goes down by one.
-  1. If user guesses correctly, our Wins var is increased by one.
-  1. If user guesses incorrectly:
-    1. If guesses remain, allow for more keystrokes.
-    1. If no guesses remain, increase our Losses var by one and reset the game.
+2. Each keystroke is logged and then compared against our selected letter. 
+  a. Our Guesses var goes down by one.
+  b1. If user guesses correctly, our Wins var is increased by one.
+  b2. If user guesses incorrectly:
+    c1. If guesses remain, allow for more keystrokes.
+    c2. If no guesses remain, increase our Losses var by one and reset the game.
