@@ -1,12 +1,12 @@
 # Psychic-Game
 
-##Overview
+## Overview
 A classic guessing-game-style web app.
 
-##Game Play
+## Game Play
 Users press any key to begin. They are then prompted to guess which letter has been randomly selected by the app. They are given 8 chances to guess before either scoring a win, or losing. 
 
-##Code Overview
+## Code Overview
 1. When game is started by the user, a function runs to select a random letter from our letters array.
 1. Each keystroke is logged and then compared against our selected letter. 
   1. Our Guesses var goes down by one.
